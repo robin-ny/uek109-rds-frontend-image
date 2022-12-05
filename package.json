@@ -1,0 +1,28 @@
+{
+  "name": "uek109-rds-frontend",
+  "version": "1.0.0",
+  "description": "rds-frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robin-ny/uek109-rds-frontend.git"
+  },
+  "author": "Robin Meier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robin-ny/uek109-rds-frontend/issues"
+  },
+  "homepage": "https://github.com/robin-ny/uek109-rds-frontend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "pg-promise": "^10.15.4"
+  }
+}

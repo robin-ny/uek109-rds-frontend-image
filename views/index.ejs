@@ -1,0 +1,27 @@
+<%- include('head', { title: 'ÜK109' }) -%>
+<script src="tabler.js"></script>
+
+<form onsubmit="return updateTable(event)">
+  <input type="text" name="firstname" id="firstname" placeholder="firstname">
+  <input type="text" name="lastname" id="lastname" placeholder="lastname">
+  <input type="text" name="grade" id="grade" placeholder="grade">
+  <input type="submit" value="Add/List Members">
+</form>
+
+<div class="member-table">
+  <table>
+      <thead class="member-head">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody class="member-rows">
+        <tr>
+
+        </tr>
+      </tbody>
+  </table>
+</div>
+<%- include('foot') -%>
